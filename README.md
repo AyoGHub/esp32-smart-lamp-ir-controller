@@ -1,6 +1,6 @@
 # ESP32 Smart Lamp & IR controller
 
-A Bluetooth/IR controlled smart lamp and TV control hub
+A Bluetooth/IR-controlled smart lamp and TV control hub
 
 ## Features
 
