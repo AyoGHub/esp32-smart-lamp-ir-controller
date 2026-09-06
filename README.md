@@ -54,9 +54,22 @@ A Bluetooth/IR-controlled smart lamp and TV control hub
 
 ## Code and Development (Arduino IDE)
 
-"smartlamp.ino" is the program running on the ESP32, available in [`smartlamp.ino`](smartlamp.ino)
-   
+- "smartlamp.ino" is the program running on the ESP32, available in [`smartlamp.ino`](smartlamp.ino)
+- The program reads the analogue joystick’s X- and Y-axis positions and maps them to a hue on the colour wheel. It also receives IR commands, either translating them into compatible Samsung TV signals or using them to select the displayed color
+- It uses ESP32 GPIO outputs to read the potentiometer's position
+- AI tools assisted with code generation and troubleshooting; I assembled, integrated, tested, and verified the hardware system.
+
+## Libraries
+
+- BluetoothSerial — enables Bluetooth communication with the ESP32.
+- IRremote — receives IR commands and transmits compatible Samsung TV IR signals
          
-      
+## Photos/Demo
+
+- All relevant photos and the demo video file are in this repository
+- Note: This demo focuses on the automatic rainbow mode and IR remote/TV-control functions.
+ The project also supports manual joystick colour selection, potentiometer brightness control and Bluetooth commands
+
+
       
       
