@@ -57,7 +57,7 @@ A Bluetooth/IR-controlled smart lamp and TV control hub
 - "smartlamp.ino" is the C++ program running on the ESP32, available in [`smartlamp.ino`](smartlamp.ino)
 - The program reads the analogue joystick’s X- and Y-axis positions and maps them to a hue on the colour wheel. It also receives IR commands, either translating them into compatible Samsung TV signals or using them to select the displayed color
 - It uses ESP32 GPIO outputs to read the potentiometer's position
-- AI tools assisted with code generation and troubleshooting; I assembled, integrated, tested, and verified the hardware system.
+- AI tools assisted with code generation and troubleshooting; I assembled, integrated, tested, and verified the hardware system
 
 ## Libraries
 
