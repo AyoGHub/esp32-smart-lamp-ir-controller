@@ -49,12 +49,12 @@ A Bluetooth/IR-controlled smart lamp and TV control hub
      - Typing and entering a color's first letter (Red --> Purple, + Cyan, Magenta, White) displays that color on the lamp
      - Pressing "W" will cycle between "White" and "Off"
      - "A" triggers RGB
-     - Case-insensitive. With macros, you only need to push a button (See [`smartlamp.ino`](smartlamp.ino)
+     - Case-insensitive. With macros, you only need to push a button (See [`Serial-Bluetooth-Terminal-with-Macros.jpg`](Serial-Bluetooth-Terminal-with-Macros.jpg)
 - The IR remote has directional inputs, selection, volume controls, a "Home" and "Return" button, and can display all of the above colors except white
 
 ## Code and Development (Arduino IDE)
 
-"smartlamp.ino" is the program running on the ESP32, available in [`Serial Bluetooth Terminal App with Macros.jpg`](Serial Bluetooth Terminal App with Macros.jpg)
+"smartlamp.ino" is the program running on the ESP32, available in [`smartlamp.ino`](smartlamp.ino)
    
          
       
