@@ -37,7 +37,7 @@ A Bluetooth/IR-controlled smart lamp and TV control hub
   
   - The ESP32 is powered via a USB-C cable from a smart device or power outlet (stable 5 V). It retrieves inputs from a smartphone via Bluetooth, while the IR receiver reads signals from the remote
   - The receiver, transmitter, potentiometer, RGB LED, and analog joystick are integrated with the ESP32 GPIO pins via a breadboard and jumper wires
-  - The IR receiver and transmitter were positioned to maintain reliable line-of-sight reception from the remote and transmission to the TV
+  - The IR receiver and transmitter were positioned to maintain reliable, line-of-sight reception from the remote and transmission to the TV
  - A plastic flashlight housing provides structural support and encloses the RGB LED. The wiring is encased in cardboard
 
 ## Controls
