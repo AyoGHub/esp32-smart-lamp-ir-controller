@@ -66,8 +66,8 @@ A Bluetooth/IR-controlled smart lamp and TV control hub
          
 ## Photos/Demo
 
-- All relevant photos and the demo video file are in this repository (see [`Lamp-TV-Control.mp4`](Lamp-TV-Control.mp4), [`Lamp-in-RGB-mode.mp4`](Lamp-in-RGB-mode.mp4))
-- Note: This demo focuses on the automatic rainbow mode and IR remote/TV-control functions
+- All relevant photos and the demo video files are in this repository (see [`Lamp-TV-Control.mp4`](Lamp-TV-Control.mp4), [`Lamp-in-RGB-mode.mp4`](Lamp-in-RGB-mode.mp4))
+- Note: This demo focuses on the RGB mode and IR remote/TV-control functions
  The project also supports manual joystick colour selection, potentiometer brightness control, and Bluetooth commands
 
 
