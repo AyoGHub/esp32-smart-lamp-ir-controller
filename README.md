@@ -31,14 +31,14 @@ A Bluetooth/IR-controlled smart lamp and TV control hub
 - Breadboard
 - IR Transmitter
 - IR Receiver
-- Flashlight Casing
+- Flashlight & Cardboard Casings
 
   ## System Design, Wiring and Power
   
   - The ESP32 is powered via a USB-C cable from a smart device or power outlet (stable 5 V). It retrieves inputs from a smartphone via Bluetooth, while the IR receiver reads signals from the remote.
   - The receiver, transmitter, potentiometer, RGB LED, and analog joystick are connected to ESP32 GPIO pins via a breadboard and jumper wires
   - The IR receiver and transmitter were positioned to maintain reliable line-of-sight reception from the remote and transmission to the TV
- - A plastic flashlight housing provides structural support and encloses the RGB LED
+ - A plastic flashlight housing provides structural support and encloses the RGB LED. The wiring is encased in cardboard
 
    ## Controls
 
@@ -47,9 +47,14 @@ A Bluetooth/IR-controlled smart lamp and TV control hub
 - Twisting the potentiometer adjusts brightness
 - After pairing the ESP32 to your phone, in Serial Bluetooth Terminal:
      - Typing and entering a color's first letter (Red --> Purple, + Cyan, Magenta, White) displays that color on the lamp
-     - Pressing "W" will cycle between "White" and "Off", and "A" triggers RGB
+     - Pressing "W" will cycle between "White" and "Off"
+     - "A" triggers RGB
      - Case-insensitive
-- On the IR remote:
+- The IR remote has directional inputs, selection, volume controls, a "Home" and "Return" button, and can display all of the above colors except white
+
+## Code and Development (Arduino IDE)
+
+"smartlamp.ino" is the program running on the ESP32, available in [`smartlamp.ino`](smartlamp.ino)
    
          
       
