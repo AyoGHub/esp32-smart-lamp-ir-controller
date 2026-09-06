@@ -18,7 +18,7 @@ A Bluetooth/IR-controlled smart lamp and TV control hub
     - Access 8 unique colors
     - Toggle RGB
     - Toggle the lamp on/off
-- The IR remote can send signals to the ESP32, which transmits IR codes to a Samsung TV
+- The IR remote sends signals to the ESP32, which, when integrated with an IR transceiver, transmits IR codes to a Samsung TV
 
 ## Hardware
 
