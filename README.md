@@ -42,14 +42,14 @@ A Bluetooth/IR-controlled smart lamp and TV control hub
 
    ## Controls
 
-   - Pressing the thumbstick button cycles between modes
-   - Moving the joystick in manual mode provides color selection
-   - Twisting the potentiometer adjusts brightness
-   - After pairing the ESP32 to your phone, in Serial Bluetooth Terminal:
-   - - Typing and entering a color's first letter (Red --> Purple, + Cyan, Magenta, White) displays that color on the lamp
-   - - Pressing "W" will cycle between "White" and "Off", and "A" triggers RGB
-   - - Case-insensitive
-   - On the IR remote:
+- Pressing the thumbstick button cycles between modes
+- Moving the joystick in manual mode provides color selection
+- Twisting the potentiometer adjusts brightness
+- After pairing the ESP32 to your phone, in Serial Bluetooth Terminal:
+ - Typing and entering a color's first letter (Red --> Purple, + Cyan, Magenta, White) displays that color on the lamp
+ - Pressing "W" will cycle between "White" and "Off", and "A" triggers RGB
+ - Case-insensitive
+- On the IR remote:
    
          
       
