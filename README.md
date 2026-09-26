@@ -61,7 +61,7 @@ A Bluetooth/IR-controlled smart lamp and TV control hub
 
 ## Libraries
 
-- BluetoothSerial — enables Bluetooth communication with the ESP32.
+- BluetoothSerial — enables Bluetooth communication with the ESP32
 - IRremote — receives IR commands and transmits compatible Samsung TV IR signals
          
 ## Photos/Demo
